@@ -56,7 +56,7 @@ namespace migracion_2020
 		private void Button1_Click_1(object sender, EventArgs e)
 		{
 			SQL_Usuarios users = new SQL_Usuarios();
-			users.Ingresar_Usuario(txtCUI.ToString(),txtPass.ToString(), txtNombre.ToString(), txtApellido.ToString(), txtEmail.ToString(), txtTelefono.ToString());
+			users.Ingresar_Usuario(txtCUI.Text,txtPass.Text, txtNombre.Text, txtApellido.Text, txtEmail.Text, txtTelefono.Text);
 			this.Hide();
 			LogIn nuevo = new LogIn();
 			nuevo.Show();
