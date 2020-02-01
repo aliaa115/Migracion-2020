@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Data.Odbc;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -10,12 +11,9 @@ using System.Windows.Forms;
 
 namespace migracion_2020
 {
-	public partial class LogIn : Form
+	public partial class Inicio : Form
 	{
-		SQL_Login test = new SQL_Login();
-		ConfirmarSMS mess = new ConfirmarSMS();
-		SQL_Bitacora log = new SQL_Bitacora();
-		public LogIn()
+		public Inicio()
 		{
 			InitializeComponent();
 		}
@@ -43,23 +41,9 @@ namespace migracion_2020
 
 		private void Button1_Click(object sender, EventArgs e)
 		{
-
-			if (test.ConsultarUsuario(txtCUI.Text, txtContraseña.Text))
-			{
-				DateTime today = DateTime.Today;
-				log.Ingresar_Bitacora(txtCUI.Text, "Ingreso al Sistema", today.ToString());
-				this.Hide();
-				Inicio nuevo = new Inicio();
-				nuevo.Show();
-				
-			}
-			else
-			{
-				MessageBox.Show("Por favor Verifique los datos ingresados.");
-				DateTime today = DateTime.Today;
-				log.Ingresar_Bitacora(txtCUI.Text, "Falló al interntar ingresar al sistema", today.ToString());
-			}
-			
+			this.Hide();
+			Principal nuevo = new Principal();
+			nuevo.Show();
 		}
 
 		private void Button1_MouseLeave(object sender, EventArgs e)
@@ -70,19 +54,25 @@ namespace migracion_2020
 			button1.FlatAppearance.BorderColor = CelesteGob;
 		}
 
-		private void Button2_Click(object sender, EventArgs e)
+		private void Button1_Click_1(object sender, EventArgs e)
 		{
 			this.Hide();
-			Registro nuevo = new Registro();
+			Principal nuevo = new Principal();
 			nuevo.Show();
 		}
 
-		private void Button3_Click(object sender, EventArgs e)
+		private void Inicio_FormClosed(object sender, FormClosedEventArgs e)
 		{
-			
-			this.Hide();
-			Recuperar nuevo = new Recuperar();
-			nuevo.Show();
+			Application.Exit();
+		}
+
+		private void Inicio_Load(object sender, EventArgs e)
+		{
+			SQL_LLenar_Tabla tramites = new SQL_LLenar_Tabla();
+			OdbcDataAdapter dt = tramites.llenaTbl("transacciones");
+			DataTable table = new DataTable();
+			dt.Fill(table);
+			dataGridView1.DataSource = table;
 		}
 	}
 }

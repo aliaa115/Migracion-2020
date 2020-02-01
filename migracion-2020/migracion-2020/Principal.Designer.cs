@@ -53,6 +53,9 @@
 			this.tableLayoutPanel6 = new System.Windows.Forms.TableLayoutPanel();
 			this.label4 = new System.Windows.Forms.Label();
 			this.label2 = new System.Windows.Forms.Label();
+			this.tableLayoutPanel7 = new System.Windows.Forms.TableLayoutPanel();
+			this.label5 = new System.Windows.Forms.Label();
+			this.label7 = new System.Windows.Forms.Label();
 			this.panel8 = new System.Windows.Forms.Panel();
 			this.tableLayoutPanel4 = new System.Windows.Forms.TableLayoutPanel();
 			this.pictureBox2 = new System.Windows.Forms.PictureBox();
@@ -77,9 +80,6 @@
 			this.tabPage6 = new System.Windows.Forms.TabPage();
 			this.tabPage7 = new System.Windows.Forms.TabPage();
 			this.tabPage8 = new System.Windows.Forms.TabPage();
-			this.tableLayoutPanel7 = new System.Windows.Forms.TableLayoutPanel();
-			this.label5 = new System.Windows.Forms.Label();
-			this.label7 = new System.Windows.Forms.Label();
 			this.panel1.SuspendLayout();
 			this.tableLayoutPanel1.SuspendLayout();
 			this.tableLayoutPanel2.SuspendLayout();
@@ -93,6 +93,7 @@
 			this.panel10.SuspendLayout();
 			this.tableLayoutPanel5.SuspendLayout();
 			this.tableLayoutPanel6.SuspendLayout();
+			this.tableLayoutPanel7.SuspendLayout();
 			this.panel8.SuspendLayout();
 			this.tableLayoutPanel4.SuspendLayout();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -109,7 +110,6 @@
 			this.tabPage2.SuspendLayout();
 			this.panel4.SuspendLayout();
 			this.tabPage3.SuspendLayout();
-			this.tableLayoutPanel7.SuspendLayout();
 			this.SuspendLayout();
 			// 
 			// panel1
@@ -462,6 +462,48 @@
 			this.label2.Text = "Su tramite se encuentra a un ";
 			this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
 			// 
+			// tableLayoutPanel7
+			// 
+			this.tableLayoutPanel7.ColumnCount = 3;
+			this.tableLayoutPanel7.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 5F));
+			this.tableLayoutPanel7.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 90F));
+			this.tableLayoutPanel7.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 5F));
+			this.tableLayoutPanel7.Controls.Add(this.label5, 1, 0);
+			this.tableLayoutPanel7.Controls.Add(this.label7, 1, 1);
+			this.tableLayoutPanel7.Dock = System.Windows.Forms.DockStyle.Fill;
+			this.tableLayoutPanel7.Location = new System.Drawing.Point(3, 73);
+			this.tableLayoutPanel7.Name = "tableLayoutPanel7";
+			this.tableLayoutPanel7.RowCount = 2;
+			this.tableLayoutPanel7.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 30F));
+			this.tableLayoutPanel7.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 70F));
+			this.tableLayoutPanel7.Size = new System.Drawing.Size(951, 397);
+			this.tableLayoutPanel7.TabIndex = 1;
+			// 
+			// label5
+			// 
+			this.label5.AutoSize = true;
+			this.label5.Dock = System.Windows.Forms.DockStyle.Fill;
+			this.label5.Font = new System.Drawing.Font("Century Gothic", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.label5.Location = new System.Drawing.Point(50, 0);
+			this.label5.Name = "label5";
+			this.label5.Size = new System.Drawing.Size(849, 119);
+			this.label5.TabIndex = 0;
+			this.label5.Text = "Paso 3 de 5";
+			this.label5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// label7
+			// 
+			this.label7.AutoSize = true;
+			this.label7.Dock = System.Windows.Forms.DockStyle.Fill;
+			this.label7.Font = new System.Drawing.Font("Century Gothic", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.label7.ForeColor = System.Drawing.Color.DimGray;
+			this.label7.Location = new System.Drawing.Point(50, 119);
+			this.label7.Name = "label7";
+			this.label7.Size = new System.Drawing.Size(849, 278);
+			this.label7.TabIndex = 1;
+			this.label7.Text = resources.GetString("label7.Text");
+			this.label7.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+			// 
 			// panel8
 			// 
 			this.panel8.BackColor = System.Drawing.Color.WhiteSmoke;
@@ -748,48 +790,6 @@
 			this.tabPage8.TabIndex = 7;
 			this.tabPage8.Text = "tabPage8";
 			// 
-			// tableLayoutPanel7
-			// 
-			this.tableLayoutPanel7.ColumnCount = 3;
-			this.tableLayoutPanel7.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 5F));
-			this.tableLayoutPanel7.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 90F));
-			this.tableLayoutPanel7.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 5F));
-			this.tableLayoutPanel7.Controls.Add(this.label5, 1, 0);
-			this.tableLayoutPanel7.Controls.Add(this.label7, 1, 1);
-			this.tableLayoutPanel7.Dock = System.Windows.Forms.DockStyle.Fill;
-			this.tableLayoutPanel7.Location = new System.Drawing.Point(3, 73);
-			this.tableLayoutPanel7.Name = "tableLayoutPanel7";
-			this.tableLayoutPanel7.RowCount = 2;
-			this.tableLayoutPanel7.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 30F));
-			this.tableLayoutPanel7.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 70F));
-			this.tableLayoutPanel7.Size = new System.Drawing.Size(951, 397);
-			this.tableLayoutPanel7.TabIndex = 1;
-			// 
-			// label5
-			// 
-			this.label5.AutoSize = true;
-			this.label5.Dock = System.Windows.Forms.DockStyle.Fill;
-			this.label5.Font = new System.Drawing.Font("Century Gothic", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label5.Location = new System.Drawing.Point(50, 0);
-			this.label5.Name = "label5";
-			this.label5.Size = new System.Drawing.Size(849, 119);
-			this.label5.TabIndex = 0;
-			this.label5.Text = "Paso 3 de 5";
-			this.label5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			// 
-			// label7
-			// 
-			this.label7.AutoSize = true;
-			this.label7.Dock = System.Windows.Forms.DockStyle.Fill;
-			this.label7.Font = new System.Drawing.Font("Century Gothic", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label7.ForeColor = System.Drawing.Color.DimGray;
-			this.label7.Location = new System.Drawing.Point(50, 119);
-			this.label7.Name = "label7";
-			this.label7.Size = new System.Drawing.Size(849, 278);
-			this.label7.TabIndex = 1;
-			this.label7.Text = resources.GetString("label7.Text");
-			this.label7.TextAlign = System.Drawing.ContentAlignment.TopCenter;
-			// 
 			// Principal
 			// 
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
@@ -801,12 +801,11 @@
 			this.Controls.Add(this.panel1);
 			this.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.ForeColor = System.Drawing.Color.Black;
+			this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
 			this.HelpButton = true;
 			this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-			this.IsMdiContainer = true;
 			this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.Name = "Principal";
-			this.Text = "Pasaportes -Gt";
 			this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
 			this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Principal_FormClosed);
 			this.Load += new System.EventHandler(this.Form1_Load);
@@ -827,6 +826,8 @@
 			this.tableLayoutPanel5.ResumeLayout(false);
 			this.tableLayoutPanel6.ResumeLayout(false);
 			this.tableLayoutPanel6.PerformLayout();
+			this.tableLayoutPanel7.ResumeLayout(false);
+			this.tableLayoutPanel7.PerformLayout();
 			this.panel8.ResumeLayout(false);
 			this.tableLayoutPanel4.ResumeLayout(false);
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
@@ -844,8 +845,6 @@
 			this.tabPage2.ResumeLayout(false);
 			this.panel4.ResumeLayout(false);
 			this.tabPage3.ResumeLayout(false);
-			this.tableLayoutPanel7.ResumeLayout(false);
-			this.tableLayoutPanel7.PerformLayout();
 			this.ResumeLayout(false);
 
 		}

@@ -31,13 +31,15 @@
 			System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(LogIn));
 			this.label3 = new System.Windows.Forms.Label();
 			this.label4 = new System.Windows.Forms.Label();
-			this.textBox1 = new System.Windows.Forms.TextBox();
-			this.textBox2 = new System.Windows.Forms.TextBox();
+			this.txtCUI = new System.Windows.Forms.TextBox();
+			this.txtContraseña = new System.Windows.Forms.TextBox();
 			this.button1 = new System.Windows.Forms.Button();
 			this.pictureBox4 = new System.Windows.Forms.PictureBox();
 			this.pictureBox2 = new System.Windows.Forms.PictureBox();
 			this.pictureBox3 = new System.Windows.Forms.PictureBox();
 			this.pictureBox1 = new System.Windows.Forms.PictureBox();
+			this.button2 = new System.Windows.Forms.Button();
+			this.button3 = new System.Windows.Forms.Button();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -51,9 +53,9 @@
 			this.label3.ForeColor = System.Drawing.Color.DeepSkyBlue;
 			this.label3.Location = new System.Drawing.Point(44, 195);
 			this.label3.Name = "label3";
-			this.label3.Size = new System.Drawing.Size(62, 21);
+			this.label3.Size = new System.Drawing.Size(36, 21);
 			this.label3.TabIndex = 6;
-			this.label3.Text = "Correo";
+			this.label3.Text = "CUI";
 			// 
 			// label4
 			// 
@@ -66,23 +68,23 @@
 			this.label4.TabIndex = 7;
 			this.label4.Text = "Contraseña";
 			// 
-			// textBox1
+			// txtCUI
 			// 
-			this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-			this.textBox1.Location = new System.Drawing.Point(66, 239);
-			this.textBox1.Name = "textBox1";
-			this.textBox1.Size = new System.Drawing.Size(333, 20);
-			this.textBox1.TabIndex = 8;
-			this.textBox1.Text = "Escriba aquí su correo electrónico.";
+			this.txtCUI.BorderStyle = System.Windows.Forms.BorderStyle.None;
+			this.txtCUI.Location = new System.Drawing.Point(75, 239);
+			this.txtCUI.Name = "txtCUI";
+			this.txtCUI.Size = new System.Drawing.Size(333, 20);
+			this.txtCUI.TabIndex = 8;
+			this.txtCUI.Text = "Escriba aquí su CUI.\r\n";
 			// 
-			// textBox2
+			// txtContraseña
 			// 
-			this.textBox2.BorderStyle = System.Windows.Forms.BorderStyle.None;
-			this.textBox2.Location = new System.Drawing.Point(66, 347);
-			this.textBox2.Name = "textBox2";
-			this.textBox2.PasswordChar = '*';
-			this.textBox2.Size = new System.Drawing.Size(333, 20);
-			this.textBox2.TabIndex = 9;
+			this.txtContraseña.BorderStyle = System.Windows.Forms.BorderStyle.None;
+			this.txtContraseña.Location = new System.Drawing.Point(66, 347);
+			this.txtContraseña.Name = "txtContraseña";
+			this.txtContraseña.PasswordChar = '*';
+			this.txtContraseña.Size = new System.Drawing.Size(333, 20);
+			this.txtContraseña.TabIndex = 9;
 			// 
 			// button1
 			// 
@@ -142,6 +144,36 @@
 			this.pictureBox1.TabIndex = 0;
 			this.pictureBox1.TabStop = false;
 			// 
+			// button2
+			// 
+			this.button2.BackColor = System.Drawing.Color.White;
+			this.button2.FlatAppearance.BorderColor = System.Drawing.Color.White;
+			this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+			this.button2.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.button2.ForeColor = System.Drawing.Color.Blue;
+			this.button2.Location = new System.Drawing.Point(273, 522);
+			this.button2.Name = "button2";
+			this.button2.Size = new System.Drawing.Size(84, 26);
+			this.button2.TabIndex = 14;
+			this.button2.Text = "Registrate";
+			this.button2.UseVisualStyleBackColor = false;
+			this.button2.Click += new System.EventHandler(this.Button2_Click);
+			// 
+			// button3
+			// 
+			this.button3.BackColor = System.Drawing.Color.White;
+			this.button3.FlatAppearance.BorderColor = System.Drawing.Color.White;
+			this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+			this.button3.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.button3.ForeColor = System.Drawing.Color.Blue;
+			this.button3.Location = new System.Drawing.Point(54, 522);
+			this.button3.Name = "button3";
+			this.button3.Size = new System.Drawing.Size(202, 27);
+			this.button3.TabIndex = 15;
+			this.button3.Text = "He olvidado mi contraseña.";
+			this.button3.UseVisualStyleBackColor = false;
+			this.button3.Click += new System.EventHandler(this.Button3_Click);
+			// 
 			// LogIn
 			// 
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
@@ -149,13 +181,15 @@
 			this.ClientSize = new System.Drawing.Size(457, 561);
 			this.Controls.Add(this.button1);
 			this.Controls.Add(this.pictureBox4);
-			this.Controls.Add(this.textBox2);
-			this.Controls.Add(this.textBox1);
+			this.Controls.Add(this.txtContraseña);
+			this.Controls.Add(this.txtCUI);
 			this.Controls.Add(this.label4);
 			this.Controls.Add(this.label3);
 			this.Controls.Add(this.pictureBox2);
 			this.Controls.Add(this.pictureBox3);
 			this.Controls.Add(this.pictureBox1);
+			this.Controls.Add(this.button3);
+			this.Controls.Add(this.button2);
 			this.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
 			this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
@@ -163,7 +197,6 @@
 			this.Name = "LogIn";
 			this.Opacity = 0.95D;
 			this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-			this.Text = "LogIn";
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
@@ -180,9 +213,11 @@
 		private System.Windows.Forms.PictureBox pictureBox2;
 		private System.Windows.Forms.Label label3;
 		private System.Windows.Forms.Label label4;
-		private System.Windows.Forms.TextBox textBox1;
-		private System.Windows.Forms.TextBox textBox2;
+		private System.Windows.Forms.TextBox txtCUI;
+		private System.Windows.Forms.TextBox txtContraseña;
 		private System.Windows.Forms.PictureBox pictureBox4;
 		private System.Windows.Forms.Button button1;
+		private System.Windows.Forms.Button button2;
+		private System.Windows.Forms.Button button3;
 	}
 }
