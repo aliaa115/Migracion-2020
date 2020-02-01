@@ -32,7 +32,7 @@
 			System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Inicio));
 			this.lbl_Titulo1 = new System.Windows.Forms.Label();
 			this.label1 = new System.Windows.Forms.Label();
-			this.textBox3 = new System.Windows.Forms.TextBox();
+			this.txtNom = new System.Windows.Forms.TextBox();
 			this.pictureBox5 = new System.Windows.Forms.PictureBox();
 			this.label3 = new System.Windows.Forms.Label();
 			this.button1 = new System.Windows.Forms.Button();
@@ -69,13 +69,13 @@
 			this.label1.Text = "Nuevo Trámite";
 			this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
 			// 
-			// textBox3
+			// txtNom
 			// 
-			this.textBox3.BorderStyle = System.Windows.Forms.BorderStyle.None;
-			this.textBox3.Location = new System.Drawing.Point(155, 448);
-			this.textBox3.Name = "textBox3";
-			this.textBox3.Size = new System.Drawing.Size(300, 20);
-			this.textBox3.TabIndex = 15;
+			this.txtNom.BorderStyle = System.Windows.Forms.BorderStyle.None;
+			this.txtNom.Location = new System.Drawing.Point(154, 448);
+			this.txtNom.Name = "txtNom";
+			this.txtNom.Size = new System.Drawing.Size(300, 20);
+			this.txtNom.TabIndex = 15;
 			// 
 			// pictureBox5
 			// 
@@ -187,7 +187,7 @@
 			this.Controls.Add(this.button1);
 			this.Controls.Add(this.pictureBox4);
 			this.Controls.Add(this.label3);
-			this.Controls.Add(this.textBox3);
+			this.Controls.Add(this.txtNom);
 			this.Controls.Add(this.pictureBox5);
 			this.Controls.Add(this.label1);
 			this.Controls.Add(this.lbl_Titulo1);
@@ -213,7 +213,7 @@
 
 		private System.Windows.Forms.Label lbl_Titulo1;
 		private System.Windows.Forms.Label label1;
-		private System.Windows.Forms.TextBox textBox3;
+		private System.Windows.Forms.TextBox txtNom;
 		private System.Windows.Forms.PictureBox pictureBox5;
 		private System.Windows.Forms.Label label3;
 		private System.Windows.Forms.Button button1;

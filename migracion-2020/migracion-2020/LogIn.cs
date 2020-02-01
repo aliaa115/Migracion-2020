@@ -49,7 +49,7 @@ namespace migracion_2020
 				DateTime today = DateTime.Today;
 				log.Ingresar_Bitacora(txtCUI.Text, "Ingreso al Sistema", today.ToString());
 				this.Hide();
-				Inicio nuevo = new Inicio();
+				Inicio nuevo = new Inicio(txtCUI.Text);
 				nuevo.Show();
 				
 			}

@@ -13,8 +13,10 @@ namespace migracion_2020
 {
 	public partial class Inicio : Form
 	{
-		public Inicio()
+		string noCui = "";
+		public Inicio(string cui)
 		{
+			noCui = cui;
 			InitializeComponent();
 		}
 
@@ -56,6 +58,8 @@ namespace migracion_2020
 
 		private void Button1_Click_1(object sender, EventArgs e)
 		{
+			SQL_tramites tramite = new SQL_tramites();
+			tramite.Ingresar_Transacciones(txtNom.Text,noCui, DateTime.Now.ToString("yyyy-MM-dd"));
 			this.Hide();
 			Principal nuevo = new Principal();
 			nuevo.Show();
@@ -69,7 +73,7 @@ namespace migracion_2020
 		private void Inicio_Load(object sender, EventArgs e)
 		{
 			SQL_LLenar_Tabla tramites = new SQL_LLenar_Tabla();
-			OdbcDataAdapter dt = tramites.llenaTbl("transacciones");
+			OdbcDataAdapter dt = tramites.llenaTbl("transacciones",noCui);
 			DataTable table = new DataTable();
 			dt.Fill(table);
 			dataGridView1.DataSource = table;

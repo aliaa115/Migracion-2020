@@ -94,6 +94,7 @@
     <Compile Include="SQL-LLenar-Tabla.cs" />
     <Compile Include="SQL-Login.cs" />
     <Compile Include="SQL-Recuperar.cs" />
+    <Compile Include="SQL-tramites.cs" />
     <Compile Include="SQL-Usuarios.cs" />
     <EmbeddedResource Include="Cambio.resx">
       <DependentUpon>Cambio.cs</DependentUpon>
