@@ -59,10 +59,19 @@ namespace migracion_2020
 		private void Button1_Click_1(object sender, EventArgs e)
 		{
 			SQL_tramites tramite = new SQL_tramites();
-			tramite.Ingresar_Transacciones(txtNom.Text,noCui, DateTime.Now.ToString("yyyy-MM-dd"));
-			this.Hide();
-			Principal nuevo = new Principal();
-			nuevo.Show();
+
+			if (txtNom.Text != "" && txtNom.Text != " ")
+			{
+				tramite.Ingresar_Transacciones(txtNom.Text, noCui, DateTime.Now.ToString("yyyy-MM-dd"));
+				this.Hide();
+				Principal nuevo = new Principal();
+				nuevo.Show();
+			}
+			else
+			{
+				MessageBox.Show("Por favor coloque un nombre al tramite");
+			}
+			
 		}
 
 		private void Inicio_FormClosed(object sender, FormClosedEventArgs e)
@@ -73,7 +82,7 @@ namespace migracion_2020
 		private void Inicio_Load(object sender, EventArgs e)
 		{
 			SQL_LLenar_Tabla tramites = new SQL_LLenar_Tabla();
-			OdbcDataAdapter dt = tramites.llenaTbl("transacciones",noCui);
+			OdbcDataAdapter dt = tramites.llenaTbl("tramites",noCui);
 			DataTable table = new DataTable();
 			dt.Fill(table);
 			dataGridView1.DataSource = table;

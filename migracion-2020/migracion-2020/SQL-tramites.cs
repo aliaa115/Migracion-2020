@@ -13,8 +13,8 @@ namespace migracion_2020
 		public void Ingresar_Transacciones(string nom, string cui	, string fecha)
 		{
 
-			string sql = "INSERT INTO transacciones(nombre_tramite,cui,fecha_apertura_transaccion,estado_transaccion)" +
-				"  VALUES ('" + nom+"','"+cui+"','"+fecha+"','Activado');";
+			string sql = "INSERT INTO tramites(nombre_tramite,tipo_tramite,cui,fecha_apertura_tramite,estado_tramite)" +
+				"  VALUES ('" + nom+"','0','"+cui+"','"+fecha+"','Activado');";
 			OdbcCommand command = new OdbcCommand(sql, conectar.conexion());
 			command.ExecuteNonQuery();
 
