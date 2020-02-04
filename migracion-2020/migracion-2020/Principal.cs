@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-
+using procesoeEntregaDePasaporte;
 
 namespace migracion_2020
 {
@@ -83,7 +83,15 @@ namespace migracion_2020
 
 		private void Button6_Click(object sender, EventArgs e)
 		{
-			setButtonsColors(button6);
+           setButtonsColors(button6);
+            tabControl1.SelectedIndex = 7;
+            procesoeEntregaDePasaporte.Frm_recepcion_de_pasaportes eP = new procesoeEntregaDePasaporte.Frm_recepcion_de_pasaportes();
+			 eP.TopLevel = false;
+            eP.Parent = tabPage8;
+
+            eP.Size = new System.Drawing.Size(eP.Parent.Width, eP.Parent.Height);
+
+            eP.Show();
 		}
 
 		private void Form1_Load(object sender, EventArgs e)

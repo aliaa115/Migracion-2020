@@ -36,6 +36,9 @@
     <ApplicationIcon>logo-mini.ico</ApplicationIcon>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="procesoeEntregaDePasaporte">
+      <HintPath>..\..\..\..\oroyectoVS_EntregaPasaporte\procesoeEntregaDePasaporte\procesoeEntregaDePasaporte\bin\Debug\procesoeEntregaDePasaporte.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -190,6 +193,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="logo-mini.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
