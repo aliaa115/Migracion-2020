@@ -83,6 +83,7 @@ namespace migracion_2020
 
 		private void Button6_Click(object sender, EventArgs e)
 		{
+			tabControl1.SelectedIndex = 6;
 			setButtonsColors(button6);
 		}
 

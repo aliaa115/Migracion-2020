@@ -79,7 +79,9 @@
 			this.tabPage5 = new System.Windows.Forms.TabPage();
 			this.tabPage6 = new System.Windows.Forms.TabPage();
 			this.tabPage7 = new System.Windows.Forms.TabPage();
+			this.entregaDePasaportes1 = new EntregaDePasaportes.EntregaDePasaportes();
 			this.tabPage8 = new System.Windows.Forms.TabPage();
+			this.recepcionD1 = new capaDisenoRecepcion.RecepcionD();
 			this.panel1.SuspendLayout();
 			this.tableLayoutPanel1.SuspendLayout();
 			this.tableLayoutPanel2.SuspendLayout();
@@ -110,6 +112,7 @@
 			this.tabPage2.SuspendLayout();
 			this.panel4.SuspendLayout();
 			this.tabPage3.SuspendLayout();
+			this.tabPage7.SuspendLayout();
 			this.SuspendLayout();
 			// 
 			// panel1
@@ -699,22 +702,23 @@
 			// tabPage2
 			// 
 			this.tabPage2.Controls.Add(this.panel4);
-			this.tabPage2.Location = new System.Drawing.Point(4, 25);
+			this.tabPage2.Location = new System.Drawing.Point(4, 28);
 			this.tabPage2.Name = "tabPage2";
 			this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-			this.tabPage2.Size = new System.Drawing.Size(963, 775);
+			this.tabPage2.Size = new System.Drawing.Size(963, 772);
 			this.tabPage2.TabIndex = 1;
 			this.tabPage2.Text = "tabPage2";
 			this.tabPage2.UseVisualStyleBackColor = true;
 			// 
 			// panel4
 			// 
-			this.panel4.BackColor = System.Drawing.Color.SteelBlue;
+			this.panel4.BackColor = System.Drawing.Color.White;
+			this.panel4.Controls.Add(this.recepcionD1);
 			this.panel4.Controls.Add(this.panel6);
 			this.panel4.Dock = System.Windows.Forms.DockStyle.Fill;
 			this.panel4.Location = new System.Drawing.Point(3, 3);
 			this.panel4.Name = "panel4";
-			this.panel4.Size = new System.Drawing.Size(957, 769);
+			this.panel4.Size = new System.Drawing.Size(957, 766);
 			this.panel4.TabIndex = 0;
 			// 
 			// panel6
@@ -772,12 +776,22 @@
 			// 
 			// tabPage7
 			// 
+			this.tabPage7.Controls.Add(this.entregaDePasaportes1);
 			this.tabPage7.Location = new System.Drawing.Point(4, 25);
 			this.tabPage7.Name = "tabPage7";
 			this.tabPage7.Size = new System.Drawing.Size(963, 775);
 			this.tabPage7.TabIndex = 6;
 			this.tabPage7.Text = "tabPage7";
 			this.tabPage7.UseVisualStyleBackColor = true;
+			// 
+			// entregaDePasaportes1
+			// 
+			this.entregaDePasaportes1.Dock = System.Windows.Forms.DockStyle.Fill;
+			this.entregaDePasaportes1.Location = new System.Drawing.Point(0, 0);
+			this.entregaDePasaportes1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+			this.entregaDePasaportes1.Name = "entregaDePasaportes1";
+			this.entregaDePasaportes1.Size = new System.Drawing.Size(963, 775);
+			this.entregaDePasaportes1.TabIndex = 0;
 			// 
 			// tabPage8
 			// 
@@ -789,6 +803,15 @@
 			this.tabPage8.Size = new System.Drawing.Size(963, 775);
 			this.tabPage8.TabIndex = 7;
 			this.tabPage8.Text = "tabPage8";
+			// 
+			// recepcionD1
+			// 
+			this.recepcionD1.Dock = System.Windows.Forms.DockStyle.Fill;
+			this.recepcionD1.Location = new System.Drawing.Point(0, 0);
+			this.recepcionD1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+			this.recepcionD1.Name = "recepcionD1";
+			this.recepcionD1.Size = new System.Drawing.Size(957, 766);
+			this.recepcionD1.TabIndex = 1;
 			// 
 			// Principal
 			// 
@@ -845,6 +868,7 @@
 			this.tabPage2.ResumeLayout(false);
 			this.panel4.ResumeLayout(false);
 			this.tabPage3.ResumeLayout(false);
+			this.tabPage7.ResumeLayout(false);
 			this.ResumeLayout(false);
 
 		}
@@ -902,5 +926,7 @@
 		private System.Windows.Forms.TableLayoutPanel tableLayoutPanel7;
 		private System.Windows.Forms.Label label5;
 		private System.Windows.Forms.Label label7;
+		private EntregaDePasaportes.EntregaDePasaportes entregaDePasaportes1;
+		private capaDisenoRecepcion.RecepcionD recepcionD1;
 	}
 }

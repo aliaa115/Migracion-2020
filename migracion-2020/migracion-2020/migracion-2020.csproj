@@ -36,6 +36,13 @@
     <ApplicationIcon>logo-mini.ico</ApplicationIcon>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="capaDisenoRecepcion">
+      <HintPath>..\dlls\capaDisenoRecepcion.dll</HintPath>
+    </Reference>
+    <Reference Include="EntregaDePasaportes, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\dlls\EntregaDePasaportes.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
