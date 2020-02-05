@@ -80,6 +80,8 @@
             this.tabPage6 = new System.Windows.Forms.TabPage();
             this.tabPage7 = new System.Windows.Forms.TabPage();
             this.tabPage8 = new System.Windows.Forms.TabPage();
+            this.tableLayoutPanel8 = new System.Windows.Forms.TableLayoutPanel();
+            this.userControl11 = new EntregaDePasaportes.UserControl1();
             this.panel1.SuspendLayout();
             this.tableLayoutPanel1.SuspendLayout();
             this.tableLayoutPanel2.SuspendLayout();
@@ -110,6 +112,8 @@
             this.tabPage2.SuspendLayout();
             this.panel4.SuspendLayout();
             this.tabPage3.SuspendLayout();
+            this.tabPage8.SuspendLayout();
+            this.tableLayoutPanel8.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
@@ -782,6 +786,7 @@
             // tabPage8
             // 
             this.tabPage8.BackColor = System.Drawing.Color.White;
+            this.tabPage8.Controls.Add(this.tableLayoutPanel8);
             this.tabPage8.ForeColor = System.Drawing.Color.White;
             this.tabPage8.Location = new System.Drawing.Point(4, 31);
             this.tabPage8.Margin = new System.Windows.Forms.Padding(0);
@@ -789,6 +794,27 @@
             this.tabPage8.Size = new System.Drawing.Size(963, 769);
             this.tabPage8.TabIndex = 7;
             this.tabPage8.Text = "tabPage8";
+            // 
+            // tableLayoutPanel8
+            // 
+            this.tableLayoutPanel8.ColumnCount = 1;
+            this.tableLayoutPanel8.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel8.Controls.Add(this.userControl11, 0, 0);
+            this.tableLayoutPanel8.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tableLayoutPanel8.Location = new System.Drawing.Point(0, 0);
+            this.tableLayoutPanel8.Name = "tableLayoutPanel8";
+            this.tableLayoutPanel8.RowCount = 1;
+            this.tableLayoutPanel8.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel8.Size = new System.Drawing.Size(963, 769);
+            this.tableLayoutPanel8.TabIndex = 7;
+            // 
+            // userControl11
+            // 
+            this.userControl11.Location = new System.Drawing.Point(3, 4);
+            this.userControl11.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.userControl11.Name = "userControl11";
+            this.userControl11.Size = new System.Drawing.Size(957, 761);
+            this.userControl11.TabIndex = 0;
             // 
             // Principal
             // 
@@ -845,6 +871,8 @@
             this.tabPage2.ResumeLayout(false);
             this.panel4.ResumeLayout(false);
             this.tabPage3.ResumeLayout(false);
+            this.tabPage8.ResumeLayout(false);
+            this.tableLayoutPanel8.ResumeLayout(false);
             this.ResumeLayout(false);
 
 		}
@@ -902,5 +930,7 @@
 		private System.Windows.Forms.TableLayoutPanel tableLayoutPanel7;
 		private System.Windows.Forms.Label label5;
 		private System.Windows.Forms.Label label7;
-	}
+        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel8;
+        private EntregaDePasaportes.UserControl1 userControl11;
+    }
 }

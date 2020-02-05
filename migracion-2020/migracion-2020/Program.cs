@@ -16,7 +16,7 @@ namespace migracion_2020
 		{
 			Application.EnableVisualStyles();
 			Application.SetCompatibleTextRenderingDefault(false);
-			Application.Run(new Principal());
+			Application.Run(new LogIn());
 		}
 	}
 }

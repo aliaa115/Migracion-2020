@@ -36,6 +36,9 @@
     <ApplicationIcon>logo-mini.ico</ApplicationIcon>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="EntregaDePasaportes">
+      <HintPath>..\..\..\..\PoroyectoVS_EntregaPasaporte\EntregaDePasaportes\EntregaDePasaportes\bin\Debug\EntregaDePasaportes.dll</HintPath>
+    </Reference>
     <Reference Include="procesoeEntregaDePasaporte">
       <HintPath>..\..\..\..\oroyectoVS_EntregaPasaporte\procesoeEntregaDePasaporte\procesoeEntregaDePasaporte\bin\Debug\procesoeEntregaDePasaporte.dll</HintPath>
     </Reference>
