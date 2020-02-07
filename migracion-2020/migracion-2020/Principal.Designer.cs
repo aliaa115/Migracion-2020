@@ -81,7 +81,7 @@
             this.tabPage7 = new System.Windows.Forms.TabPage();
             this.tabPage8 = new System.Windows.Forms.TabPage();
             this.tableLayoutPanel8 = new System.Windows.Forms.TableLayoutPanel();
-            this.userControl11 = new EntregaDePasaportes.UserControl1();
+            this.entregaDePasaportes1 = new EntregaDePasaportes.EntregaDePasaportes();
             this.panel1.SuspendLayout();
             this.tableLayoutPanel1.SuspendLayout();
             this.tableLayoutPanel2.SuspendLayout();
@@ -703,10 +703,10 @@
             // tabPage2
             // 
             this.tabPage2.Controls.Add(this.panel4);
-            this.tabPage2.Location = new System.Drawing.Point(4, 31);
+            this.tabPage2.Location = new System.Drawing.Point(4, 28);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(963, 769);
+            this.tabPage2.Size = new System.Drawing.Size(963, 772);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "tabPage2";
             this.tabPage2.UseVisualStyleBackColor = true;
@@ -718,7 +718,7 @@
             this.panel4.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel4.Location = new System.Drawing.Point(3, 3);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(957, 763);
+            this.panel4.Size = new System.Drawing.Size(957, 766);
             this.panel4.TabIndex = 0;
             // 
             // panel6
@@ -731,9 +731,9 @@
             // tabPage3
             // 
             this.tabPage3.Controls.Add(this.panel5);
-            this.tabPage3.Location = new System.Drawing.Point(4, 31);
+            this.tabPage3.Location = new System.Drawing.Point(4, 28);
             this.tabPage3.Name = "tabPage3";
-            this.tabPage3.Size = new System.Drawing.Size(963, 769);
+            this.tabPage3.Size = new System.Drawing.Size(963, 772);
             this.tabPage3.TabIndex = 2;
             this.tabPage3.Text = "tabPage3";
             this.tabPage3.UseVisualStyleBackColor = true;
@@ -744,41 +744,41 @@
             this.panel5.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel5.Location = new System.Drawing.Point(0, 0);
             this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(963, 769);
+            this.panel5.Size = new System.Drawing.Size(963, 772);
             this.panel5.TabIndex = 0;
             // 
             // tabPage4
             // 
-            this.tabPage4.Location = new System.Drawing.Point(4, 31);
+            this.tabPage4.Location = new System.Drawing.Point(4, 28);
             this.tabPage4.Name = "tabPage4";
-            this.tabPage4.Size = new System.Drawing.Size(963, 769);
+            this.tabPage4.Size = new System.Drawing.Size(963, 772);
             this.tabPage4.TabIndex = 3;
             this.tabPage4.Text = "tabPage4";
             this.tabPage4.UseVisualStyleBackColor = true;
             // 
             // tabPage5
             // 
-            this.tabPage5.Location = new System.Drawing.Point(4, 31);
+            this.tabPage5.Location = new System.Drawing.Point(4, 28);
             this.tabPage5.Name = "tabPage5";
-            this.tabPage5.Size = new System.Drawing.Size(963, 769);
+            this.tabPage5.Size = new System.Drawing.Size(963, 772);
             this.tabPage5.TabIndex = 4;
             this.tabPage5.Text = "tabPage5";
             this.tabPage5.UseVisualStyleBackColor = true;
             // 
             // tabPage6
             // 
-            this.tabPage6.Location = new System.Drawing.Point(4, 31);
+            this.tabPage6.Location = new System.Drawing.Point(4, 28);
             this.tabPage6.Name = "tabPage6";
-            this.tabPage6.Size = new System.Drawing.Size(963, 769);
+            this.tabPage6.Size = new System.Drawing.Size(963, 772);
             this.tabPage6.TabIndex = 5;
             this.tabPage6.Text = "tabPage6";
             this.tabPage6.UseVisualStyleBackColor = true;
             // 
             // tabPage7
             // 
-            this.tabPage7.Location = new System.Drawing.Point(4, 31);
+            this.tabPage7.Location = new System.Drawing.Point(4, 28);
             this.tabPage7.Name = "tabPage7";
-            this.tabPage7.Size = new System.Drawing.Size(963, 769);
+            this.tabPage7.Size = new System.Drawing.Size(963, 772);
             this.tabPage7.TabIndex = 6;
             this.tabPage7.Text = "tabPage7";
             this.tabPage7.UseVisualStyleBackColor = true;
@@ -799,7 +799,7 @@
             // 
             this.tableLayoutPanel8.ColumnCount = 1;
             this.tableLayoutPanel8.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel8.Controls.Add(this.userControl11, 0, 0);
+            this.tableLayoutPanel8.Controls.Add(this.entregaDePasaportes1, 0, 0);
             this.tableLayoutPanel8.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanel8.Location = new System.Drawing.Point(0, 0);
             this.tableLayoutPanel8.Name = "tableLayoutPanel8";
@@ -808,13 +808,13 @@
             this.tableLayoutPanel8.Size = new System.Drawing.Size(963, 769);
             this.tableLayoutPanel8.TabIndex = 7;
             // 
-            // userControl11
+            // entregaDePasaportes1
             // 
-            this.userControl11.Location = new System.Drawing.Point(3, 4);
-            this.userControl11.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.userControl11.Name = "userControl11";
-            this.userControl11.Size = new System.Drawing.Size(957, 761);
-            this.userControl11.TabIndex = 0;
+            this.entregaDePasaportes1.Location = new System.Drawing.Point(3, 4);
+            this.entregaDePasaportes1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.entregaDePasaportes1.Name = "entregaDePasaportes1";
+            this.entregaDePasaportes1.Size = new System.Drawing.Size(957, 761);
+            this.entregaDePasaportes1.TabIndex = 0;
             // 
             // Principal
             // 
@@ -931,6 +931,6 @@
 		private System.Windows.Forms.Label label5;
 		private System.Windows.Forms.Label label7;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel8;
-        private EntregaDePasaportes.UserControl1 userControl11;
+        private EntregaDePasaportes.EntregaDePasaportes entregaDePasaportes1;
     }
 }
