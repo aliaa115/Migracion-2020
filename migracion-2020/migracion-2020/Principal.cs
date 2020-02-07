@@ -83,6 +83,7 @@ namespace migracion_2020
 
 		private void Button6_Click(object sender, EventArgs e)
 		{
+<<<<<<< HEAD
            setButtonsColors(button6);
             tabControl1.SelectedIndex = 7;
             procesoeEntregaDePasaporte.Frm_recepcion_de_pasaportes eP = new procesoeEntregaDePasaporte.Frm_recepcion_de_pasaportes();
@@ -92,6 +93,10 @@ namespace migracion_2020
             eP.Size = new System.Drawing.Size(eP.Parent.Width, eP.Parent.Height);
 
             eP.Show();
+=======
+			tabControl1.SelectedIndex = 6;
+			setButtonsColors(button6);
+>>>>>>> c72dab7dfa89ad09dbe8a3450e80468f3fd28669
 		}
 
 		private void Form1_Load(object sender, EventArgs e)

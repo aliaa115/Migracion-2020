@@ -65,6 +65,7 @@ C:\Users\gganp\Desktop\IS\Migracion-2020\migracion-2020\migracion-2020\obj\Debug
 C:\Users\gganp\Desktop\IS\Migracion-2020\migracion-2020\migracion-2020\obj\Debug\migracion-2020.csproj.CoreCompileInputs.cache
 C:\Users\gganp\Desktop\IS\Migracion-2020\migracion-2020\migracion-2020\obj\Debug\migracion-2020.exe
 C:\Users\gganp\Desktop\IS\Migracion-2020\migracion-2020\migracion-2020\obj\Debug\migracion-2020.pdb
+<<<<<<< HEAD
 \\Mac\Home\Documents\Universidad\9no somestre\042 Ingenieria de Software\migracion\proyecto - git\Migracion-2020\migracion-2020\migracion-2020\obj\Debug\migracion-2020.csprojAssemblyReference.cache
 \\Mac\Home\Documents\Universidad\9no somestre\042 Ingenieria de Software\migracion\proyecto - git\Migracion-2020\migracion-2020\migracion-2020\obj\Debug\migracion_2020.Cambio.resources
 \\Mac\Home\Documents\Universidad\9no somestre\042 Ingenieria de Software\migracion\proyecto - git\Migracion-2020\migracion-2020\migracion-2020\obj\Debug\migracion_2020.Recuperar.resources
@@ -83,3 +84,10 @@ C:\Users\gganp\Desktop\IS\Migracion-2020\migracion-2020\migracion-2020\obj\Debug
 \\Mac\Home\Documents\Universidad\9no somestre\042 Ingenieria de Software\migracion\proyecto - git\Migracion-2020\migracion-2020\migracion-2020\obj\Debug\migracion_2020.Properties.Resources.resources
 \\Mac\Home\Documents\Universidad\9no somestre\042 Ingenieria de Software\migracion\proyecto - git\Migracion-2020\migracion-2020\migracion-2020\obj\Debug\migracion-2020.csproj.CoreCompileInputs.cache
 \\Mac\Home\Documents\Universidad\9no somestre\042 Ingenieria de Software\migracion\proyecto - git\Migracion-2020\migracion-2020\migracion-2020\obj\Debug\migracion-2020.csproj.CopyComplete
+=======
+C:\Users\gganp\Desktop\IS\Migracion-2020\migracion-2020\migracion-2020\bin\Debug\EntregaDePasaportes.pdb
+C:\Users\gganp\Desktop\IS\Migracion-2020\migracion-2020\migracion-2020\obj\Debug\migracion-2020.csproj.CopyComplete
+C:\Users\gganp\Desktop\IS\Migracion-2020\migracion-2020\migracion-2020\bin\Debug\EntregaDePasaportes.dll
+C:\Users\gganp\Desktop\IS\Migracion-2020\migracion-2020\migracion-2020\bin\Debug\capaDisenoRecepcion.dll
+C:\Users\gganp\Desktop\IS\Migracion-2020\migracion-2020\migracion-2020\bin\Debug\capaDisenoRecepcion.pdb
+>>>>>>> c72dab7dfa89ad09dbe8a3450e80468f3fd28669
