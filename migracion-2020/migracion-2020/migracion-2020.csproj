@@ -43,6 +43,9 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\dlls\EntregaDePasaportes.dll</HintPath>
     </Reference>
+    <Reference Include="procesoeEntregaDePasaporte">
+      <HintPath>..\..\procesoeEntregaDePasaporte\procesoeEntregaDePasaporte\bin\Debug\procesoeEntregaDePasaporte.dll</HintPath>
+    </Reference>
     <Reference Include="Solicitud">
       <HintPath>..\dlls\Solicitud.dll</HintPath>
     </Reference>
