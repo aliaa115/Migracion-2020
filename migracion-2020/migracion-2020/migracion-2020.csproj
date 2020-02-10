@@ -36,20 +36,15 @@
     <ApplicationIcon>logo-mini.ico</ApplicationIcon>
   </PropertyGroup>
   <ItemGroup>
-<<<<<<< HEAD
-    <Reference Include="EntregaDePasaportes">
-      <HintPath>..\..\..\..\PoroyectoVS_EntregaPasaporte\EntregaDePasaportes\EntregaDePasaportes\bin\Debug\EntregaDePasaportes.dll</HintPath>
-    </Reference>
-    <Reference Include="procesoeEntregaDePasaporte">
-      <HintPath>..\..\..\..\oroyectoVS_EntregaPasaporte\procesoeEntregaDePasaporte\procesoeEntregaDePasaporte\bin\Debug\procesoeEntregaDePasaporte.dll</HintPath>
-=======
     <Reference Include="capaDisenoRecepcion">
       <HintPath>..\dlls\capaDisenoRecepcion.dll</HintPath>
     </Reference>
     <Reference Include="EntregaDePasaportes, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\dlls\EntregaDePasaportes.dll</HintPath>
->>>>>>> c72dab7dfa89ad09dbe8a3450e80468f3fd28669
+    </Reference>
+    <Reference Include="Solicitud">
+      <HintPath>..\dlls\Solicitud.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -71,6 +66,12 @@
       <DependentUpon>Cambio.cs</DependentUpon>
     </Compile>
     <Compile Include="ConfirmarSMS.cs" />
+    <Compile Include="Tramites.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tramites.Designer.cs">
+      <DependentUpon>Tramites.cs</DependentUpon>
+    </Compile>
     <Compile Include="Recuperar.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -113,6 +114,9 @@
     <Compile Include="SQL-Usuarios.cs" />
     <EmbeddedResource Include="Cambio.resx">
       <DependentUpon>Cambio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tramites.resx">
+      <DependentUpon>Tramites.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Recuperar.resx">
       <DependentUpon>Recuperar.cs</DependentUpon>
@@ -205,9 +209,8 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="logo-mini.ico" />
-  </ItemGroup>
-  <ItemGroup>
-    <WCFMetadata Include="Connected Services\" />
+    <None Include="Resources\negative-sign.png" />
+    <None Include="Resources\correct.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

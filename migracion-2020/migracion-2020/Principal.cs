@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using procesoeEntregaDePasaporte;
+
 
 namespace migracion_2020
 {
@@ -74,29 +74,19 @@ namespace migracion_2020
 		private void Button4_Click(object sender, EventArgs e)
 		{
 			setButtonsColors(button4);
+			tabControl1.SelectedIndex = 3;
 		}
 
 		private void Button5_Click(object sender, EventArgs e)
 		{
 			setButtonsColors(button5);
+			tabControl1.SelectedIndex = 4;
 		}
 
 		private void Button6_Click(object sender, EventArgs e)
 		{
-<<<<<<< HEAD
-           setButtonsColors(button6);
-            tabControl1.SelectedIndex = 7;
-            procesoeEntregaDePasaporte.Frm_recepcion_de_pasaportes eP = new procesoeEntregaDePasaporte.Frm_recepcion_de_pasaportes();
-			 eP.TopLevel = false;
-            eP.Parent = tabPage8;
-
-            eP.Size = new System.Drawing.Size(eP.Parent.Width, eP.Parent.Height);
-
-            eP.Show();
-=======
 			tabControl1.SelectedIndex = 6;
 			setButtonsColors(button6);
->>>>>>> c72dab7dfa89ad09dbe8a3450e80468f3fd28669
 		}
 
 		private void Form1_Load(object sender, EventArgs e)

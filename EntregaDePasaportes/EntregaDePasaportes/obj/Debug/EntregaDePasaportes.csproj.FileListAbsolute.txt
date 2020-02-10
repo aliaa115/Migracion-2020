@@ -1,9 +1,0 @@
-\\Mac\Home\Documents\Universidad\9no somestre\042 Ingenieria de Software\migracion\PoroyectoVS_EntregaPasaporte\EntregaDePasaportes\EntregaDePasaportes\bin\Debug\EntregaDePasaportes.dll
-\\Mac\Home\Documents\Universidad\9no somestre\042 Ingenieria de Software\migracion\PoroyectoVS_EntregaPasaporte\EntregaDePasaportes\EntregaDePasaportes\bin\Debug\EntregaDePasaportes.pdb
-\\Mac\Home\Documents\Universidad\9no somestre\042 Ingenieria de Software\migracion\PoroyectoVS_EntregaPasaporte\EntregaDePasaportes\EntregaDePasaportes\obj\Debug\EntregaDePasaportes.csprojAssemblyReference.cache
-\\Mac\Home\Documents\Universidad\9no somestre\042 Ingenieria de Software\migracion\PoroyectoVS_EntregaPasaporte\EntregaDePasaportes\EntregaDePasaportes\obj\Debug\EntregaDePasaportes.Properties.Resources.resources
-\\Mac\Home\Documents\Universidad\9no somestre\042 Ingenieria de Software\migracion\PoroyectoVS_EntregaPasaporte\EntregaDePasaportes\EntregaDePasaportes\obj\Debug\EntregaDePasaportes.csproj.GenerateResource.cache
-\\Mac\Home\Documents\Universidad\9no somestre\042 Ingenieria de Software\migracion\PoroyectoVS_EntregaPasaporte\EntregaDePasaportes\EntregaDePasaportes\obj\Debug\EntregaDePasaportes.csproj.CoreCompileInputs.cache
-\\Mac\Home\Documents\Universidad\9no somestre\042 Ingenieria de Software\migracion\PoroyectoVS_EntregaPasaporte\EntregaDePasaportes\EntregaDePasaportes\obj\Debug\EntregaDePasaportes.dll
-\\Mac\Home\Documents\Universidad\9no somestre\042 Ingenieria de Software\migracion\PoroyectoVS_EntregaPasaporte\EntregaDePasaportes\EntregaDePasaportes\obj\Debug\EntregaDePasaportes.pdb
-\\Mac\Home\Documents\Universidad\9no somestre\042 Ingenieria de Software\migracion\PoroyectoVS_EntregaPasaporte\EntregaDePasaportes\EntregaDePasaportes\obj\Debug\EntregaDePasaportes.EntregaDePasaportes.resources
